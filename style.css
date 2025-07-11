@@ -1,0 +1,287 @@
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* shared style */
+
+  header{
+    background-image: url("../Assets/Hero-bg.png");
+  }
+
+  .bun-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    
+  }
+
+/* nav style */
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 200px;
+  }
+
+  .nav-title{
+    color: #4E47FF;
+    font-weight: 800;
+    font-size: 34px;
+
+  }
+
+  nav li{
+    list-style: none;
+    margin-right: 51px;
+  }
+
+
+  /* Banner section */
+.banar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  text-align: center;
+}
+
+.banar-containtent h1 {
+  font-size: 65px;
+  color: #2e2e50;
+  margin-bottom: 30px;
+}
+
+.byn-primary {
+  font-size: 16px;
+}
+
+
+
+/* main section  */
+
+/* section 1 */
+
+  main{
+      max-width: 1140px;
+      margin: 130px auto;
+  }
+
+  .about-secount-bg{
+      display: flex;
+      gap: 250px;
+      align-items: center;
+  }
+
+.banar-containtent-sp{
+    margin-top: 10px;
+}
+
+.main-img-sp{
+    border-radius: 48px;
+    border: none;
+    margin-left: auto;
+}
+
+
+/* section 2 */
+
+.view-section {
+    text-align: center;
+    padding: 80px 5px;
+    background-color: #4d47ff56;
+    border-radius: 30px;
+    margin-top: 125px;
+    margin-bottom: 125PX;
+}
+
+.view-section h2 {
+    font-size: 38px;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+.view-ast{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    flex-wrap:wrap;
+}
+
+
+.num{
+    font-size: 80px;
+    font-weight: bolder;
+    color: #4E47FF;
+}
+
+.caption{
+    font-size: 20px;
+    font-weight: 400px;
+    color: #62625d;
+}
+
+
+
+/* section 3 */
+
+.test-card{
+    display: flex;
+    gap: 24px;
+    padding: 10px;
+    box-shadow: #252432;
+    
+}
+
+.view-stars{
+    border: 2px solid wheat;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: wheat;
+
+
+    
+}
+.stars img{
+    padding: 5px;
+    border-radius: 50%;
+    
+}
+.box{
+    border: none;
+    background-color: wheat;
+
+}
+
+.box-box{
+    border: none;
+    background-color: wheat;
+}
+
+.card-box{
+  display: flex;
+  align-items: center;
+
+}
+
+.reviewer-text {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+/* section 4 */
+
+.section{
+    text-align: center;
+    padding: 80px 5px;
+    background-color: #f6f2f297;
+    border-radius: 30px;
+    margin-top: 125px;
+    margin-bottom: 125PX;
+}
+
+.color-main{
+   
+    text-align: center;
+    margin-top: 10px;  
+    
+}
+
+.section img {
+    margin-top: 50px;
+    border-radius: 48px;   
+}
+.color-p{
+  color: #00000063;
+}
+
+
+
+/* section 5 */
+
+.contact-secation{
+    display: flex;
+    background-color: #f6f2f297;
+    padding: 80px 5px;
+    border-radius: 30px;
+    justify-content: space-around; 
+}
+
+.contact-heading{
+    font-size: 60px;
+    font-weight: 700px;
+    margin-left: 0px;
+}
+
+
+.contact label{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.contact input{
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.contact textarea{
+    border-radius: 5px;
+    width: 325px;
+}
+
+#bunt-primary{
+    padding: 12px 120px 12px 118px;
+    background-color: #4E47FF;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+}
+
+
+/* footer section */
+
+.footer {
+    text-align: center;
+    background-color: #f6f2f297;
+    padding: 20px 0;
+    margin-top: 0;
+}
+
+.fotter-main {
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+    padding: 10px;
+    margin: 0;
+}
+
+.footer-titles {
+    padding: 10px;
+    margin: 0;
+}
+
+.caption-1 {
+    color: #8987A1;
+    margin: 10;
+}
+
+.footer-titles a {
+    text-decoration: none;
+    margin: 20px;
+    font-size: 15px;
+    font-weight: 400px;
+    color: #62625d;
+}
